@@ -3,18 +3,33 @@ body {
 }
 
 header {
-  background-color: #001a1a;
-  color: #FFF;
+  background-color: #FFF;
+  width: 100%;
+}
+
+header p {
+  color: #001a1a;
+  font-size: 20px;
+}
+
+header img {
+  width: 20%;
+  display: block;
+  margin: 0px auto 10px;
 }
 
 footer {
   background-color: #001a1a;
   margin-top:10px;
+  bottom: 0px;
+  width: 100%;
+
 }
 
 footer p {
  color: #FFF;
  padding-left: 10px;
+ margin-bottom: 0px;
 
 }
 
@@ -24,7 +39,7 @@ footer p {
 
 .seat-chart {
   width: 90%;
-  margin: 0 auto;
+  margin: 50px auto 0px;
 }
 
 .available {
