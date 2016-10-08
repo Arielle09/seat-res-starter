@@ -1,10 +1,36 @@
+body {
+  background-color: #008080;
+}
+
+header {
+  background-color: #001a1a;
+  color: #FFF;
+}
+
+footer {
+  background-color: #001a1a;
+  margin-top:10px;
+}
+
+footer p {
+ color: #FFF;
+ padding-left: 10px;
+
+}
+
+.center-text {
+  text-align: center;
+}
+
 .seat-chart {
   width: 90%;
   margin: 0 auto;
 }
 
 .available {
-  background-color: green;
+  background: url(images/seat.png) no-repeat;
+  background-size: contain;
+  /*background-color: green;*/
   width: 24%;
   margin: auto;
   min-height: 100px;
@@ -12,7 +38,9 @@
 }
 
 .reserved {
-  background-color: red;
+  background: url(images/res_seat.png) no-repeat;
+  background-size: contain;
+  /*background-color: red;*/
   width: 24%;
   margin: auto;
   min-height: 100px;
