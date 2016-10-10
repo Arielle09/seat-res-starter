@@ -1,14 +1,15 @@
 body {
-  background-color: #008080;
+  background-color: #CEB887;
 }
 
 header {
   background-color: #FFF;
   width: 100%;
+  border-bottom: 2px solid #101a45;
 }
 
 header p {
-  color: #001a1a;
+  color: #9c7f3b;
   font-size: 20px;
 }
 
@@ -19,10 +20,11 @@ header img {
 }
 
 footer {
-  background-color: #001a1a;
+  background-color: #9c7f3b;
   margin-top:10px;
   bottom: 0px;
   width: 100%;
+  border-top: 2px solid #101a45;
 
 }
 
@@ -43,7 +45,7 @@ footer p {
 }
 
 .available {
-  background: url(images/seat.png) no-repeat;
+  background: url(images/seat.png) center no-repeat;
   background-size: contain;
   /*background-color: green;*/
   width: 24%;
@@ -53,7 +55,7 @@ footer p {
 }
 
 .reserved {
-  background: url(images/res_seat.png) no-repeat;
+  background: url(images/res_seat.png) center no-repeat;
   background-size: contain;
   /*background-color: red;*/
   width: 24%;
