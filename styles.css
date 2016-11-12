@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: #FFF;
+  background-color: blue;
   width: 100%;
   border-bottom: 2px solid #101a45;
 }
@@ -15,7 +15,7 @@ header img {
 }
 
 footer {
-  background-color: #616b8b;
+  background-color: yellow;
   margin-top: 50px;
   bottom: 0px;
   width: 100%;
@@ -24,7 +24,7 @@ footer {
 }
 
 footer p {
- color: #cdd2e2;
+ color: green;
  padding-left: 10px;
  margin-bottom: 0px;
 
